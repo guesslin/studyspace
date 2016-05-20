@@ -1,0 +1,4 @@
+Go's switch is more general than C's. The expressions need not be constants or
+even integers, the cases are evaluated top to bottom until a match is found,
+and **if the switch has no expression it switches on true**. It's therefore
+possible—and idiomatic—to write an if-else-if-else chain as a switch.
